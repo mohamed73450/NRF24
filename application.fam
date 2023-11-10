@@ -1,0 +1,16 @@
+App(
+    appid="nrf24l01_noise_generator",
+    apptype=FlipperAppType.EXTERNAL,
+    cdefines=["NRF_Jammer"],
+    entry_point="main",
+    fap_author="@CyberDemon007",
+    fap_category="Sub-GHz",
+    fap_description="Jammer Using NRF24l01",
+    fap_icon="icons/NRF24.png",
+    fap_libs=["assets"],
+    fap_version="1.0",
+    name="nRF24L01 Noise Generator",
+    order=50,
+    requires=["gui", "storage"],
+    stack_size=8 * 1024,
+)
