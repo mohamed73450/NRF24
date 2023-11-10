@@ -1,5 +1,5 @@
-#include <C:\Users\mohamed.hisham\Desktop\Flipper-Zero-Development-Toolkit\.submodules\RF24 library\RF24-master\RF24.h>
-#include <C:\Users\mohamed.hisham\Desktop\Flipper-Zero-Development-Toolkit\.submodules\RF24 library\RF24-master\NRF24L01.h>
+#include <RF24.h>
+#include <NRF24L01.h>
 
 RF24 radio(PA0, PA1); // CE, CSN
 
